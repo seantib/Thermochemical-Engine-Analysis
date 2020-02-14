@@ -3,6 +3,8 @@ Attached is a compressed file with a set of python files. To run this code from 
 Quick setup:
 1. Open main_NoGUI.py (this holds the backbone of the gui version) - in it, right at the top, you can see all the imported files (very similar to matlab)
 2. You can see the function SaveandPlot() - This requires matplotlib to run. If you don't want to use this, you may delete lines 6, (10-18), and 63. (you may also need to delete line 59
+3. If you'd like to run the gui verison, run "python main.py" in the terminal - REQUIRES matplotlib and PySimpleGUI to run!
+
 
 Importing Fuels and Oxidizers:
 These are stored as tuples (special kind of list/array). The order goes (name,temperature,wt%,type), where the 'name' must be a string object (hence the quotations). For a list of available fuels/oxidizers, check out the Thermo.txt file attached in the folder - this comes directly from NASA.
