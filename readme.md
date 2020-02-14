@@ -7,7 +7,8 @@ Quick setup:
 
 
 Importing Fuels and Oxidizers:
-These are stored as tuples (special kind of list/array). The order goes (name,temperature,wt%,type), where the 'name' must be a string object (hence the quotations). For a list of available fuels/oxidizers, check out the Thermo.txt file attached in the folder - this comes directly from NASA.
+These are stored as tuples (special kind of list/array). The order goes (name,temperature,wt%,type), where the 'name' must be a string object (hence the quotations). For a list of available fuels/oxidizers, check out the Thermo_json.json file attached in the folder.
+
 1. you'll need a fuel name, and the temperature at which it is being injected (or before combustion) - for some reactants (usually the liquids), this is only defined at one temperature, and will throw an error if it is not set at that temperature.
 2. The weight percentage (wt%) is the percentage of the total fuel or oxidizer (separate of course) that this particular reactant takes up. This functionality allows for multiple fuels and oxidizers to be entered, as in Aerozene-50!
 3. Lastly, the type will need to be specified. This is ALSO a string!
