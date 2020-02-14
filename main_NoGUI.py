@@ -62,15 +62,3 @@ X,Y,Lcombustion,Lcone,Xparabola,Xcombstraight,Nlist,Q,E = RocketEngineCalculatio
 
 SaveandPlot(X,Y)
 
-
-'''
-DataPoints = open('Data.txt','w')
-for N in range(0,len(X)):
-    string = f'{X[N]}\t{Y[N]}\n'
-    DataPoints.write(string)
-DataPoints.close()'''
-#____________________________________________________________TO DO LIST __________________________________________________________________
-# Need to overhaul my regenerative cooling code with updated values - specifically the pressure drops
-# Add options for IAC, FAC (AcAt or AcMdot) to GUI code
-# Output tables for GUI
-# SQLite for the ALLELEMENTS data - Also, need to re-parse the data, some species (C10 species) are parsing incorrectly
